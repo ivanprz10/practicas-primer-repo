@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    a:hover{
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 50px;
+    }
+    #padre{
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+        background-color: grey;
+
+    }
+    .hijo{
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+        margin: 5px;
+        float: left;
+        background-color: blueviolet;
+        transition: all 2s ease;
+
+        
+    }
+
+    .hijo:hover{
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+        transform: scale(1.1);
+
+
+    }
+
+</style>
+<body>
+
+
+    <a href="#">enlace</a>
+
+
+    <div id="padre">
+        <div class="hijo"></div>
+        <div class="hijo"></div>
+        <div class="hijo"></div>
+        <div class="hijo"></div>
+    </div>
+
+    
+</body>
+</html>

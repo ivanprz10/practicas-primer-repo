@@ -1,0 +1,15 @@
+#section{
+    width: 70%;
+    border:1px solid black;
+    background-color: blueviolet;
+    height: 300px;
+    float: left;
+}
+#aside{
+    width: 29%;
+    border:1px solid black;
+    background-color: rgb(185, 51, 141);
+    height: 300px;
+    float: left;
+}
+

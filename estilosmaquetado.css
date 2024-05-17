@@ -1,0 +1,35 @@
+header{
+    height: 150px;
+    border: 1px solid black;
+    width: 100%;
+}
+nav{
+    height: 75px;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    display: inline;
+
+}
+div{
+    height: 500px;
+    border: 1px solid black;
+    width: 100%;   
+}
+footer{
+    height: 75px;
+    border: 1px solid black;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--los formularios son escenciales ya que nos ayudan a recabar informacion
+    de distintos usuarios que puedan acceder a nuestra pagina indicando de tipo
+    de entrada nos dara a continuacion un formulario para recababr los datos
+    nombre, apellidos, correo, contraseña, telefono, genero etc-->
+    <form>
+        <fieldset>
+            <legend>informacion personal</legend>
+
+            <label for="inombre">Introduce tu nombre: </label><br>
+            <input id="inombre" type="text" name="nombre">
+            <br><br>
+
+            <label for="iapellido">introduce tus apellidos: </label><br>
+            <input id="iapellido" type="text" name="apellidos">
+            <br><br>
+
+            <label for="icorreo">introduce tu correo: </label><br>
+            <input type="email" name="correo" id="icorreo">
+            <br><br>
+
+            <label for="icontraseña">introduce tu contraseña: </label><br>
+            <input type="password" id="icontraseña" name="contraseña">
+            <br><br>
+
+            <label for="itel">introduce tu numero de contacto: </label><br>
+            <input type="tel" id="itel" name="telefono">
+            <br><br>
+
+
+            <label for="iFem">Femenino</label>
+            <input type="radio" id="iFem" name="generos"><br>
+            <label for="imas">masculino</label>
+            <input type="radio" id="imas" name="generos"><br>
+            <label for="iotro">otro</label>
+            <input type="radio" id="iotro" name="generos"><br><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <br><br>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

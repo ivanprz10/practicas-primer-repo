@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#padre{
+    transition: 1s;
+    height: 1000px;
+}
+
+#container{
+    height: 50px;
+}
+a{
+    border-radius: 10%;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+}
+#izquierda{
+    float: left;
+}
+#derecha{
+    float: right;
+}
+#padre:target{
+
+    background-color: black;
+    color: white;
+
+}
+
+
+</style>
+<body>
+    <div id="padre">
+    
+        <div id="container">
+            <a id="izquierda" href="#padre">tema oscuro</a>
+            <a id="derecha" href="#">tema claro</a>
+        </div>
+        <h1>titulo</h1>
+        <div>
+            <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rem necessitatibus? Non enim ipsum amet ratione iure. Earum eum quod similique delectus quas, dolor, reiciendis amet optio aliquam animi enim!
+            
+            </p>
+        </div>
+
+        <h3>subtitulo</h3>
+    </div>
+</body>
+</html>
